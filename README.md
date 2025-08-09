@@ -101,4 +101,5 @@ ros2 launch px4_swarm_controller launch_simulation.py
 سپس با اجرای فایل ```runkon3.bsh/.``` تمام فایل ها اجرا خواهند شد.
 
 تعداد پهپادها و نقاط اولیه آنها از فایل ```config/swarm_config.json``` تنظیم میشوند.
-فرمیشن پهپادها از فایل ```config/control_config.jsom``` تنظیم میشود.
+
+فرمیشن پهپادها از فایل ```config/control_config.json``` تنظیم میشود.
