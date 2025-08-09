@@ -1,0 +1,6 @@
+string formation_type
+float64 leader_distance
+float64 follower_distance
+---
+bool success
+string message

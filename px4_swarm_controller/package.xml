@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>px4_swarm_controller</name>
+  <version>0.0.0</version>
+  <description>Swarm controller using the PX4 firmware</description>
+
+  <maintainer email="arthur.astier37@gmail.com">aastier</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>px4_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>custom_msgs</depend>
+  <depend>yaml-cpp</depend>
+  <depend>eigen3</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
