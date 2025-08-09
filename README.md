@@ -103,3 +103,12 @@ ros2 launch px4_swarm_controller launch_simulation.py
 تعداد پهپادها و نقاط اولیه آنها از فایل ```config/swarm_config.json``` تنظیم میشوند.
 
 فرمیشن پهپادها از فایل ```config/control_config.json``` تنظیم میشود.
+
+
+## نحوه تغییر ```formation``` در زمان ```runtime```:
+```shell
+cd your/path/ros2_ws/S3
+ros2 service call /simulation/change_formation custom_msgs/srv/ChangeFormation "{formation_type: 'triangle' , leader_distance: 10.0, follower_distance: 10.0}"
+```
+
+عبارت ```formation_type‍‍‍``` دارای سه حالت ‍‍```line``` , ```triangle``` , ```row``` است. 
