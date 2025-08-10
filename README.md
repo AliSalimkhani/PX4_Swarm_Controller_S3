@@ -112,3 +112,6 @@ ros2 service call /simulation/change_formation custom_msgs/srv/ChangeFormation "
 ```
 
 عبارت ```formation_type‍‍‍``` دارای سه حالت ‍‍```line``` , ```triangle``` , ```row``` است. 
+
+### ویدیوی اجرای سناریو را از این [لینک](https://drive.google.com/file/d/1DJ5jOKOcFA4Gr7ibXgglOAFPK1iSf6Ay/view?usp=drive_lin) تماشا کنید.
+
