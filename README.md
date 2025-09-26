@@ -115,3 +115,10 @@ ros2 service call /simulation/change_formation custom_msgs/srv/ChangeFormation "
 
 ### ویدیوی اجرای سناریو را از این [لینک](https://drive.google.com/file/d/1DJ5jOKOcFA4Gr7ibXgglOAFPK1iSf6Ay/view?usp=drive_lin) تماشا کنید.
 
+```shell
+ros2 service call /simulation/change_formation custom_msgs/srv/ChangeFormation "{formation_type: rectangle, follower_distance: 5.0, leader_distance: 5.0, roll_degrees: 180.0}"
+```
+
+```shell
+ros2 service call /px4_1/set_waypoint custom_msgs/srv/SetWaypoint "{x: 5.0, y: 3.0, z: -5.0, yaw: 0.0}"
+```
